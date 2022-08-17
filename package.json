@@ -1,0 +1,14 @@
+{
+  "name": "full-screen",
+  "dependencies": {
+    "ol": "^6.15.1",
+    "parser": "^0.1.4"
+  },
+  "devDependencies": {
+    "parcel": "^2.7.0"
+  },
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build --public-url . index.html"
+  }
+}
