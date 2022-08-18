@@ -52,7 +52,7 @@ function init(){
 
 const GeoJSONLandmark = new VectorImageLayer({
   source : new VectorSource({
-    url : './data/map.geojson',
+    url : 'https://github.com/anand-2/GalaxEye/blob/master/data/map.geojson',
     format: new GeoJSON({ 
       dataProjection: 'EPSG:4326',
      featureProjection: 'EPSG:3857' })
